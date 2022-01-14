@@ -40,3 +40,14 @@
     float: none; /* Added */
     margin-bottom: 10px; /* Added */
 }
+
+.about-cards{
+    padding:10px;
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-top: 10px; /* Added */
+}
+
+.ofsted-btn {
+    width:170px;
+}
