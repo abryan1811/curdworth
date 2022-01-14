@@ -46,6 +46,7 @@
     margin: 0 auto; /* Added */
     float: none; /* Added */
     margin-top: 10px; /* Added */
+    margin-bottom: 10px;
 }
 
 .ofsted-btn {
