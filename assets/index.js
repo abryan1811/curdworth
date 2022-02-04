@@ -134,3 +134,20 @@ function initButtons() {
 
 initButtons();
 load();
+
+// GoogleMaps
+
+function initMap() {
+    // The location of curdworthPS
+    const curdworthPS = { lat: 52.533339, lng: -1.739477 };
+    // The map, centered at curdworthPS
+    const map = new google.maps.Map(document.getElementById("map"), {
+      zoom: 17,
+      center: curdworthPS,
+    });
+    // The marker, positioned at curdworthPS
+    const marker = new google.maps.Marker({
+      position: curdworthPS,
+      map: map,
+    });
+  }
