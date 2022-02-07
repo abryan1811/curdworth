@@ -32,7 +32,7 @@
             <a class="nav-link" href="curriculum.html" style="color: #ffee21;">Curriculum</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="committee.html" style="color: #ffee21;">Committee</a>
+            <a class="nav-link" href="committee.html" style="color: #e84236;"><strong>Committee</strong></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="staff.html" style="color: #ffee21;">Staff</a>
@@ -44,48 +44,84 @@
             <a class="nav-link" href="policies.html" style="color: #ffee21;">Policies</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html" style="color: #e84236;"><strong>Contact Us</strong></a>
+            <a class="nav-link" href="contact.html" style="color: #ffee21;">Contact Us</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <div class="row">
-  <h3>Find us here</h3>
-  <!--The div element for the map -->
-  <div id="map"></div>
-</div>
-<hr>
-<div>&nbsp;</div>
-<div class="row">
-  <div class="col-lg-6 col-md-6 col-sm-12">
-    <h5 class="d-flex justify-content-center">Send us a message and we will get in touch as soon as we can</h5>
-    <div>&nbsp;</div>
-    <div class="mb-3">
-      <label for="exampleFormControlInput1" class="form-label">Email address</label>
-      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  <div class="row card EYFS d-flex flex-wrap justify-content-between align-items-center text-center">
+    <div class="card-body">
+      <h5 class="card-title">Committee</h5>
+      <p class="card-text">At Curdworth Preschool, we are supported by the wonderful members of the community who volunteer to use some of their own time to help keep us running. <br>
+         Without their help and support, we would not be able to remain open <br><br>
+        Below are some of the incredible people that share their time with us, with some a bit of information about them and what they do to help.<br>
+
+        If you feel you could volunteer your time, please send us an <a href="mailto:curdworthpreschool@outlook.com?subject=My%20Subject&body=committee" class="card-link">email</a> and let us know.
+      </p>
     </div>
-    <div class="mb-3">
-      <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-      
-    </div>
-    <input class="btn btn-primary d-flex justify-content-center" type="submit" value="Submit" style="padding-bottom:10px;">
-    <div>&nbsp;</div>
   </div>
-  <div class="col-lg-6 col-md-6 col-sm-12 ">
-    <h5 class="d-flex justify-content-center">Our Contact Details</h5>
-    <div>&nbsp;</div>
-    <div class="card d-flex justify-content-center" style="min-width: 20rem; min-height:16.5rem">
+
+  <div class="row align-items-center staff-cards d-flex justify-content-center">
+    <div class="staff-images col-3">
+      <img src="assets/images/ruth.jpg">
+    </div>
+    <div class="card col-3" style="width: 18rem;">
+      <div class="card-header">
+        Trustee Chair
+      </div>
       <div class="card-body">
-        <h6 class="card-subtitle mb-2 text-muted">Phone Number: </h6>
-        <p class="card-text">Please call while we are open, otherwise send us a message or an email and we will return your message as soon as we are able.</p>
-        <h6 class="card-subtitle mb-2 text-muted">Email us at: <a href="mailto:curdworthpreschool@outlook.com?subject=My%20Subject&body=My%20message" class="card-link">curdworthpreschool@outlook.com</a></h6>
+        <h5 class="card-title">Ruth McFarland</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
       </div>
     </div>
   </div>
-</div>
+
+  <div class="row align-items-center staff-cards d-flex justify-content-center">
+    <div class="card col-3" style="width: 18rem; margin: 10px;">
+      <div class="card-header">
+        Committee Secretary
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Claire Vyse</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+    <div class="staff-images col-3">
+      <img src="assets/images/claire.jpg">
+    </div>
+  </div>
+
+  <div class="row align-items-center staff-cards d-flex justify-content-center">
+    <div class="staff-images col-3">
+      <img src="assets/images/gale.jpg">
+    </div>
+    <div class="card col-3" style="width: 18rem;">
+      <div class="card-header">
+        Committee Support
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Gale </h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row align-items-center staff-cards d-flex justify-content-center">
+    <div class="card col-3" style="width: 18rem;">
+      <div class="card-header">
+        Committee Support
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Nicky</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+    <div class="staff-images col-3">
+      <img src="assets/images/nicky.jpg">
+    </div>
+  </div>
 
   <div class="footer">
     <div class="container">
@@ -114,12 +150,9 @@
       </footer>
     </div>
   </div>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBpDBGInH1B1tD-yTfbrvhPaa3PO83KVNc&callback=initMap&libraries=&v=weekly"
-    async></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous">
-    </script>
-
+    integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
+    crossorigin="anonymous"></script>
   <script src="assets/index.js"></script>
 </body>
 
