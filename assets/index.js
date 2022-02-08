@@ -143,11 +143,11 @@ function initMap() {
     // The map, centered at curdworthPS
     const map = new google.maps.Map(document.getElementById("map"), {
       zoom: 17,
-      center: curdworthPS,
+      center: curdworthPS
     });
     // The marker, positioned at curdworthPS
     const marker = new google.maps.Marker({
       position: curdworthPS,
-      map: map,
+      map: map
     });
   }
