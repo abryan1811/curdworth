@@ -10,6 +10,10 @@
     
 }
 
+.row {
+  margin:0px;
+}
+
 .footer{
     background-color:#314a89;
     position: relative;
